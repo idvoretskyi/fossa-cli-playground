@@ -26,6 +26,5 @@ jobs:
     - name: Fossa-cli install
       run: |
         curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | bash
-        fossa --help
-        $FOSSA_API_KEY fossa
+        fossa
 
